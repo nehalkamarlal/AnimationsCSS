@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+      height: 100vh;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+}
+.box{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: up-down 1s ease-in-out infinite  alternate;
+}
+
+@keyframes up-down {
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-20px);
+    }
+}

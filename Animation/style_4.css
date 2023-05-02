@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+p{
+position: relative;
+top: -30px;
+left: 115px;
+font-size: 18px;
+color: white;
+}
+.box{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: color-iteration 1s ease-in-out infinite ;
+}
+@keyframes color-iteration {
+  0%{
+  }    
+  25%{
+    background-color:white;
+  }
+  50%{
+    background-color:white;
+  }
+  100%{
+    background-color:white;
+  }
+}
